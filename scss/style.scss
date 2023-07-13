@@ -1,0 +1,128 @@
+$theme-colors: (
+  "primary": #e84f57,
+);
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+.container-1t {
+  margin-top: 3%;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+.card {
+  border-radius: 20px;
+}
+
+.card-title {
+  text-align: center;
+}
+.container-2t {
+  margin-top: 2%;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+.container-3t {
+  margin-top: 3%;
+  padding-left: 7%;
+  padding-right: 7%;
+}
+.container-4t {
+  margin-top: 6%;
+  padding-left: 7%;
+  padding-right: 7%;
+}
+.custom-box {
+  background-color: #dc3545;
+  border-radius: 10px;
+  padding: 20px;
+}
+.container-5t {
+  margin-top: 3%;
+}
+.container-6t {
+  margin-top: 3%;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container-8t {
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-top: 5%;
+}
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.custom-title {
+  background-color: #f8f9fa;
+  border: 1px solid #ced4da;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+.cover-image {
+  background-image: url("../images/cover\ nosotros.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 400px;
+  position: relative;
+}
+.icon-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+
+  font-size: 100px;
+  color: #fcfeff; /* Color claro (light) */
+  margin: 10px;
+}
+.container-14t {
+  margin-top: 3%;
+  padding-left: 7%;
+  padding-right: 7%;
+}
+/* iconos del futeeer */
+.icon-container-7 {
+  text-align: center;
+  margin-top: 50px;
+}
+.icon-container-7 a {
+  margin: 10px;
+}
+.icon-container-7 h6 {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #e84f57;
+}
+/* h6*/
+.text-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(201, 201, 199);
+}
+
+.container-15t {
+  margin-top: 6%;
+}
+.container-12t {
+  margin-top: 3%;
+  padding-left: 7%;
+  padding-right: 7%;
+}
+.container-13t {
+  margin-top: 5%;
+}
+.container-16t {
+  margin-top: 8%;
+}
